@@ -24,7 +24,7 @@ namespace LeetCode.Ex2.Test
             var actualOutputList = solution.AddTwoNumbers(list1, list2);
             var actualOutputArray = GetArrayFromLinkedList(actualOutputList);
 
-            //Assert
+            // Assert
             actualOutputArray.ShouldEqual(expectedOutputArray);
         }
 
